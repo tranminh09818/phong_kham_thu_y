@@ -297,6 +297,3 @@ Gặp vấn đề?
 
 ---
 
-**Made with ❤️ by Gordon - Docker AI Assistant**
-
-*Last updated: 2024*
