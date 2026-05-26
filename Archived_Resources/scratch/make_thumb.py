@@ -27,7 +27,7 @@ time.sleep(1)  # Đợi server sẵn sàng
 # --- HTML lấy frame tại giây 8 ---
 HTML = f"""<!DOCTYPE html>
 <html>
-<body style="margin:0;background:#000;">
+<body style="margin:0;background:# 000;">
   <video id="v" src="http://127.0.0.1:{PORT}/img/meonhayfooter.mp4"
          muted crossorigin="anonymous" style="display:none;"></video>
   <canvas id="c" width="480" height="270"></canvas>

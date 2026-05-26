@@ -21,7 +21,7 @@ req = urllib.request.Request(url, data=data, headers=headers, method="POST")
 try:
     with urllib.request.urlopen(req) as response:
         html = response.read().decode('utf-8')
-        # Tìm xem có thẻ kết quả tìm kiếm không
+        # Tìm xem có thẻ kết quả tìm kiếm ko
         titles = re.findall(r'<a rel="nofollow" class="result__a" href="([^"]+)">([^<]+)</a>', html)
         snippets = re.findall(r'<a class="result__snippet"[^>]*>(.*?)</a>', html)
         

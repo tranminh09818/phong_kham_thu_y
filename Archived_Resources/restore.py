@@ -14,7 +14,7 @@ end_idx = original.find(end_marker)
 if start_idx != -1 and end_idx != -1:
     missing_part = original[start_idx:end_idx]
     
-    # Add rules safely without string escaping issues
+    
     missing_part = missing_part.replace(
         '                    + \"5. Hãy phân tích L?CH S? THAO TÁC',
         '                    + \"6. PHÁT HI?N L?I SAI VÀ T? Ð?NG S?A (AUTOPILOT ERROR CORRECTION):\\n\"\n' +
