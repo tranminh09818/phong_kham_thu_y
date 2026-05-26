@@ -1,0 +1,5 @@
+--- HOA DON INSERTS ---
+INSERT INTO dbo.HoaDon (
+
+--- LICH HEN INSERTS ---
+INSERT INTO dbo.LichHen
