@@ -1,0 +1,25 @@
+# Render Environment Variables - Copy cac dong duoi vao Render Dashboard -> Environment
+# Format: KEY=VALUE
+
+SPRING_PROFILES_ACTIVE=prod
+DB_URL=jdbc:postgresql://<host>:<port>/<database>?sslmode=require
+DB_USERNAME=<postgresql-username>
+DB_PASSWORD=<postgresql-password>
+JWT_SECRET=RexiVetSystem2025SuperSecretKey256BitLongKeyForHMACAuthentication!
+CORS_ALLOWED_ORIGINS=https://<your-vercel-domain>.vercel.app
+APP_FRONTEND_URL=https://<your-vercel-domain>.vercel.app
+COOKIE_SECURE=true
+MAIL_USERNAME=rexivetsys@gmail.com
+MAIL_PASSWORD=<gmail-app-password>
+WEBHOOK_SECRET=rexi_secure_webhook_secret_a1b2c3d4e5f6g7h8i9j0_long_infinite_string_dont_share_this_to_anyone_2026_rexi_clinic_super_secret_key
+VNPAY_TMN_CODE=2QX13Z29
+VNPAY_HASH_SECRET=AZZBSYOTNMXORWHZCOBNSSTXWKZJLXPP
+VNPAY_URL=https://sandbox.vnpayment.vn/paymentv2/vpcpay.html
+VNPAY_RETURN_URL=https://<your-vercel-domain>.vercel.app/khach-hang/hoa-don-thanh-toan
+VNPAY_IPN_URL=https://<your-render-backend>.onrender.com/api/payment/vnpay/ipn
+VIETQR_BANK_ID=MB
+VIETQR_ACCOUNT_NO=0353374156
+VIETQR_ACCOUNT_NAME=TRAN HOANG MINH
+GROQ_API_KEY=
+GEMINI_API_KEY=
+OPENROUTER_API_KEY=

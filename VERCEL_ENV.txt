@@ -1,0 +1,4 @@
+# Vercel Environment Variables - Copy cac dong duoi vao Vercel Dashboard -> Settings -> Environment Variables
+
+VITE_API_URL=https://<your-render-backend>.onrender.com
+VITE_GOOGLE_CLIENT_ID=334761445329-iog83fgqrdlo0iavo68pkv17modc85du.apps.googleusercontent.com
